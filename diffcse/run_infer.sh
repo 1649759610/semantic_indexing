@@ -8,7 +8,7 @@ python -u -m paddle.distributed.launch --gpus ${gpu_ids} --log_dir ${log_dir} \
 	--encoder_name "rocketqa-zh-dureader-query-encoder" \
 	--max_seq_length "128" \
 	--output_emb_size "32" \
-	--infer_set_file "your test_set path \
+	--infer_set_file "your test_set path" \
 	--ckpt_dir "./checkpoints/best" \
     --save_infer_path "./infer_result.txt" \
 	--batch_size "32" \
