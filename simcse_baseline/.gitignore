@@ -1,0 +1,6 @@
+checkpoint*
+log*
+data/*
+__pycache__/*
+*.txt
+finddocker_pid.sh
